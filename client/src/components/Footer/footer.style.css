@@ -1,0 +1,41 @@
+.footer {
+    background-color: #222;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .link{
+    color: #474c52;
+  }
+
+  .link:hover {
+    color: #ffffff;
+  }
+  
+  div {
+    align-items: center;
+  }
+  
+  p {
+    color: #ffcb05;
+    -webkit-text-stroke: 0.5px #3a5da9;
+    justify-content: center;
+    font-size: medium;
+    font-family:fantasy ;
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.7rem;
+    font-size:x-large;
+    margin-top: 0.4rem;
+  }
+
+  

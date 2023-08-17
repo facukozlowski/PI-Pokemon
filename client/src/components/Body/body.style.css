@@ -1,0 +1,42 @@
+/* FILTER BUTTON */
+.filters-button {
+  border: none;
+  background-color: #ffd21e;
+  cursor: pointer;
+  width: 60px;
+  cursor: pointer;
+  position: absolute;
+  top: 60px;
+  float: right;
+  right: 40px;
+}
+.filters-button:hover,
+.filters-button:active,
+.filters-button:focus {
+  background: transparent;
+}
+
+/* ICON FILTER */
+.icon-filter {
+  color: #222;
+  font-size: 30px;
+}
+.icon-filter:hover {
+  color: #3a5da9;
+}
+
+.body-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 2rem;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.body-result {
+  margin-top: 5rem;
+}

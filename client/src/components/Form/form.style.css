@@ -1,0 +1,229 @@
+/* Global Box Sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --base-blue: #3a5da9;
+  --base-yellow: #ffcb05;
+  --letter: 1px var(--base-blue);
+}
+
+/* Body Styles */
+body {
+  font-family: Pokemon, sans-serif;
+  background-color: #222;
+  color: var(--base-yellow);
+  -webkit-text-stroke: var(--letter);
+}
+
+/* Login Box Styles */
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 550px;
+  height: 650px;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  color: var(--base-yellow);
+}
+
+.login-box p.danger {
+  color: white;
+  -webkit-text-stroke: transparent;
+  font-family: sans-serif;
+  padding: 0;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+/* Input Focus Styles */
+input:focus {
+  outline: 3px solid gold;
+}
+
+input,
+button {
+  width: 100%;
+  border: 1px solid #222;
+}
+
+.wrapper > * {
+  padding: 1em;
+}
+
+.wrapper {
+  padding: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contacts {
+  background: #4b5195;
+  font-size: 15px;
+  line-height: 2.5rem;
+  display: flex;
+  justify-content: flex-start;
+  font-family: fantasy;
+  color: var(--base-yellow);
+  border: 5px solid #222;
+  border-radius: 25px;
+  width: 300px;
+}
+
+.contacts h2 {
+  position: relative;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 20px;
+  line-height: 3.5rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+form label {
+  display: block;
+}
+
+button,
+.form-control-material,
+textarea {
+  padding: 1em;
+}
+
+button:hover,
+button:focus {
+  background: gold;
+  color: #3a5da9;
+  outline: 0;
+}
+
+.form-control-material {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  -webkit-text-stroke: 0;
+  color: white;
+  background-color: #4b5195;
+  border-radius: 5px;
+  height: 40px;
+  margin: 0;
+}
+
+.select-form option.selected {
+  background-color: gold;
+  color: black;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.success-message {
+  background-color: #ffcb05;
+  color: #4b5195;
+  height: 70px;
+  width: 200px;
+  margin-top: 10px ;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  border: #222;
+  box-shadow: 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  -webkit-text-stroke: 0;
+  color: white;
+  background-color: #222;
+  border-radius: 5px;
+}
+
+.full-width {
+  width: 180px;
+  height: 55px;
+  font-size: large;
+  background-color: #4b5195;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-size: 25px;
+}
+
+.user-box {
+  height: 100px;
+}
+
+.label-form {
+  height: 35px;
+  color: #ffcb05;
+  font-family: fantasy;
+}
+
+.select-label-form {
+  height: 10px;
+}
+
+.select-label-form-types{
+  margin-top: -20px;
+  margin-bottom: 10px;
+  height: 30px;
+  color: #ffcb05;
+  font-family: fantasy;
+}
+
+.select-form-types{
+  background-color: #4b5195;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 250px;
+  font-size: medium;
+  height: 110px;
+  text-align: center;
+  border: 1px solid #222;
+  overflow: auto;
+  -webkit-text-stroke: transparent;
+  color: #ffcb05;
+}
+
+.select-form-types option.selected {
+  background-color: #ffcb05;
+  color: #4b5195;
+  font-weight: bold;
+}

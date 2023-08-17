@@ -1,0 +1,39 @@
+.form{
+    display: flex;
+    top: 15vh;
+    grid-gap: 5px;
+}
+
+.form input {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    background: rgb(240, 229, 86);
+    color: #3a5da9;
+    font-weight: 700;
+    font-size: 1.2rem;
+    -webkit-text-stroke: transparent;
+}
+
+.form button {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background: #3a5da9;
+    color: #ffcb05;
+    font-size: 17px;
+    border: 2px solid #222;
+    border-left: none;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #ffcb05;
+    color: #3a5da9;
+}
+
+.icon-search {
+    position: relative;
+}

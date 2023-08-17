@@ -1,0 +1,43 @@
+body {
+    padding: 0 !important;
+}
+
+
+.landing{
+    background: url(../../assets//img/fondo.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-size: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.landing a {
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px 100px;
+    font-size: larger;
+    color: #ffcb05;
+    background-color: #2b4785;
+    border-radius: 5px;
+    position: absolute;
+    border: 2px solid #222;
+}
+
+.landing h1 {
+    font-size: 80px;
+    font-family:fantasy ;
+    -webkit-text-stroke: 3px #2b4785;
+    height: 70vh;
+}
+
+.landing a:hover {
+    color: #2b4785;
+    background-color: #ffcb05;
+    border: 2px solid #222;
+}

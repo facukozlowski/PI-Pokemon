@@ -1,0 +1,8 @@
+.filter-type{
+    display: flex;
+    justify-content: center;
+}
+
+.filter-type-left{
+    padding-right: 20px;
+}
